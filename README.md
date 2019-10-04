@@ -1,5 +1,5 @@
 # TestSpace
-Android App developed for Oculus Quest. User wears a VR HMD and explores their physical environment. 
+Room-scale Android App developed for Oculus Quest. User wears a VR HMD and explores their physical environment. 
 User does not have controllers, instead game space is mapped directly to physical space, allowing
 triggers to be hit by the user's movement. 
 
