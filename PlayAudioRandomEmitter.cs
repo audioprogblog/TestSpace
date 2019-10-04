@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Play_Trigger_RandomLocation : MonoBehaviour
+public class PlayTriggerRandomLocation : MonoBehaviour
 {
     //List of GameObjects representing each speaker
     public List<GameObject> locations;
