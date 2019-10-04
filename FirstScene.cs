@@ -21,11 +21,10 @@
             //scaledValue = playerY / startY;
         }
 
-        //Check if player's position on Y axis is less than half
-        //what it was at the beginning (determine if player is bending over)
+        //Check player's position on Y axis
         if (playerY <= (startY / 2) && hasStarted == true)
         {
-            //If yes play sound, change bools, trigger Coroutine
+            //If true play audio, change bools, trigger Coroutine
             AkSoundEngine.PostEvent("Stop_Intro_FireEscape", gameObject);
             hasStarted = false;
             timeRunning = false;
