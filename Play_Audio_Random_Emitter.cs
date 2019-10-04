@@ -42,6 +42,5 @@ public class Play_Trigger_RandomLocation : MonoBehaviour
             wwiseEvent = "Play_SecondInterlude03";
             AkSoundEngine.PostEvent(wwiseEvent, locations[Random.Range(0, locations.Count)]);
         }
-
     }
 }
